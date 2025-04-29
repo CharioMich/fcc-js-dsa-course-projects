@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.t-white  {
+    color: white;
+}
+
+.cellphone {
+    text-align: center;
+    background-color: rgb(167, 167, 167);
+    height: 420px;
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.camera {
+    background-color: gray;
+    border-radius: 7px 7px 0 0 ;
+}
+
+.screen {
+    background-color: antiquewhite;
+    height: 320px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    padding: 5px; 
+    margin:5px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid  black;
+}
+
+.in {
+    margin-bottom: 10px;
+}
+
+#results-div {
+    padding-inline: 5x;
+    height: 220px;
+    overflow: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 35%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+.button:hover{
+    font-weight: bold;
+    box-shadow: 1px 1px 5px black;
+    transition: 0.2s;
+}
+
+#check-btn {
+    background-color: rgb(10, 170, 10);
+}
+
+#clear-btn {
+    background-color: rgb(223, 16, 16);
+}

@@ -1,0 +1,92 @@
+:root {
+    --orange: rgb(235, 115, 46);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+}
+
+.head {
+    color: white;
+    text-shadow: 0 0 10px var(--orange);
+    font-size: 2.5em;
+}
+
+.w-40-auto {
+    width: 40%;
+    margin: auto;
+}
+
+.bg-bl {
+    background-color: rgb(33, 33, 33);
+}
+
+.pd-50 {
+    padding: 50px;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+.mg-t {
+    margin-top: 50px;
+}
+
+.centered {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.shdw-or {
+    box-shadow: 0 0 25px var(--orange);
+}
+
+.rounded {
+    border-style: none;
+    border-radius: 15px;
+}
+
+.btn {
+    font-weight: bold;
+    text-shadow: 0 0 15px white;
+    background-color: black;
+    color: var(--orange);
+    padding: 1.2em;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: var(--orange); 
+    box-shadow: 0 0 5px var(--orange);
+    color: white;
+    transition: 0.5s;
+}
+
+.out {
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 2em;
+    text-shadow: 1px 2px 5px black;
+    visibility: hidden;
+    color: white;
+}
+
+.out-display {
+    visibility: visible;
+}
+
+.out-alert {
+    color: red;
+    border: 1px solid rgb(255, 0, 0); 
+    background-image: none;
+    visibility: visible;
+}

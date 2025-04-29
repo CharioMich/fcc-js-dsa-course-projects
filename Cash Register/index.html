@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cash Register Project</title>
+    </head>
+    <body>
+        <main>
+            <h1 id="title" class="head yellowish centered pb-20">Cash Register Project</h1>
+            <div id="drawer" class="drawer">
+                <input id="cash" class="screen w-200 b-sides centered" type="number" placeholder="Enter cash:">
+                <div class="keyboard w-200 b-sides pb-20">
+                    <div class="key-line">
+                        <div class="key" content=""></div>
+                        <div class="key"></div>
+                        <div class="key"></div>
+                    </div>
+                    <div class="key-line">
+                        <div class="key"></div>
+                        <div class="key"></div>
+                        <div class="key"></div>
+                    </div>
+                    <div class="key-line">
+                        <div class="key"></div>
+                        <div class="key"></div>
+                        <div class="key"></div>
+                    </div>
+                    <button id="purchase-btn" class="p-btn mtb-10">Purchase</button>
+                </div>
+                <div id="price" class="price pb-20"></div>
+                <hr>
+                <div id="change-due" class="change-due centered "></div>
+            </div>
+            <div id="change-in-drawer" class="change centered">
+                <h4>Change in drawer:</h4><ul id="money"></ul>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

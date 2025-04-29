@@ -1,0 +1,89 @@
+:root {
+    --redish: rgb(192, 59, 77);
+    --greenish: rgb(168, 241, 217);
+    --grayish: rgb(153, 153, 153);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.678),rgba(0, 247, 255, 0.479));
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.centered {
+    text-align: center;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.wd-60 {
+    width: 60%;
+}
+
+.wd-50 {
+    width: 50%;
+}
+
+.mr-auto {
+    margin: auto;
+}
+
+.m-block {
+    margin-block: 50px;
+}
+
+.rounded {
+    border-style: none;
+    border-radius: 50px;
+}
+
+.container {
+    background-color: antiquewhite;
+    box-shadow: 0 0 15px 0 var(--grayish);
+}
+
+.check-btn {
+    background-color: var(--greenish);
+}
+
+.check-btn:hover {
+    background-color: var(--redish);
+    color: white;
+    cursor: pointer;
+}
+
+.shdw:hover {
+    box-shadow: 0 0 8px 0 gray;
+    transition: 0.2s;
+}
+
+.info {
+    background-color: rgba(255, 251, 225, 0.438);
+}
+
+i {
+    font-size: 1.2em;
+    margin-right: 5px;
+    text-shadow: 0 0 10px white;
+}
+
+#text-input:focus {
+    outline-color: rgb(180, 217, 231);
+}
+
+.result-container {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 0 5px 5px black;
+}

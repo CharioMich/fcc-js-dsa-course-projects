@@ -1,0 +1,140 @@
+:root {
+    --yellowish: rgb(235, 210, 86);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(43, 43, 133);
+    color: white;
+}
+
+.head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:
+    1px 1px 2px #000,
+    -1px 1px 2px #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+}
+
+.yellowish {
+    color: var(--yellowish);
+}
+
+.drawer {
+    text-align: center;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.mtb-10 {
+    margin-block: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.screen {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 15px;
+    border-style: none;
+    border-top: 1px solid white;
+}
+
+.b-sides {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.screen:hover {
+    box-shadow: 0 0 2px white;
+}
+
+.p-btn {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    display: block;
+    padding: 10px;
+    width: 100px;
+    margin: auto;
+}
+
+.p-btn:hover {
+    background-color: var(--yellowish);
+    cursor: pointer;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    box-shadow: 0 0 5px white;
+    transition: 0.2s;
+}
+
+.price {
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 5px var(--yellowish);
+}
+
+hr {
+    width: 30%;
+}
+
+.keyboard {
+    background-color: rgb(49, 49, 49);
+    margin: auto;
+    padding-top: 20px;
+    border: 1px 1px 1px 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.key-line {
+    display: inline-block;
+}
+
+.key {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-block: 5px;
+    background-color: rgb(230, 230, 230);
+}
+
+.red {
+    color: red;
+}
+
+.change-due {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    height: max-content;
+    max-width: 130px;
+    margin: auto;
+}
+
+.change {
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin-left: -32px
+}
+
+p {
+    margin: 0;
+}
